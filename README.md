@@ -2,6 +2,7 @@
 
 1. Algorytm nierekurencyjny generujący najmniejsza liczbe permutacji przez transpozycje. / JS
 
+```
 function B(m, i) {
   if ((m % 2 === 0) && (m > 2)) {
     if (i < (m - 1)) {
@@ -64,3 +65,5 @@ function main(input) {
 }
 
 main(3); // tutaj liczba elementow
+
+```
